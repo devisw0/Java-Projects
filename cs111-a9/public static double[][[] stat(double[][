@@ -1,0 +1,30 @@
+public static double[][[] stat(double[][[] prices)
+
+
+double[][[] stat = new double[3][3]      //3x3
+
+int min = 999;
+int max = -999;
+int avg = 0;
+
+   for (int i = 0; i < static[i].length; i++) {
+
+             if (static[row][i] > max) {
+
+                       max = static[row][i];
+             }
+
+           if (static[row][i] < min) {
+ 
+                      min = static{row][i];
+           }
+          
+           avg = avg + static[row][i];
+    
+    }
+
+   stats[row][0] = avg/static[i].length;
+   stats[row][1] = max;
+   stats[row][2] = min; 
+
+
